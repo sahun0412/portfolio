@@ -1,0 +1,15 @@
+
+h6{
+    letter-spacing: 4px;
+    word-spacing: 6px;
+}
+
+h4{
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    
+}
+
+.card2{
+  transform:  translateZ(300px);
+}

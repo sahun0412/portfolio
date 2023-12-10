@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400&display=swap');
+
+
+.sidebar{
+    background-color: aqua;
+    background-color: #f2f3f7;
+    text-align: center;
+   
+    height: 700px;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+
+.sideBarLinks{
+    font-family: 'Comfortaa', cursive;
+    line-height: 1.4em;
+    color: black;
+    font-size: larger;
+}
+
+.sideBarLinks:hover{
+    color: rgb(85, 138, 237);
+    font-weight: bold;
+}
+
+.sideBar-navIcons > a{
+    font-size: larger;
+    color: red;
+}
+
+.sideBar-navIcons > a:hover{
+    color: rgb(85, 138, 237);
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+.h3{
+  margin-top: -200px;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  line-height: 100%;
+  word-spacing: 10px;
+}
+
+.hello{
+  /* margin-top: -200px; */
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  line-height: 100%;
+  word-spacing: 10px;
+}
+
+
+.link{
+  color: rgb(255, 255, 255);
+  width: 170px;
+  margin: 50px;
+  font-size: 1.1rem;
+  font-family: 'Permanent Marker', cursive;
+  animation-name: text;
+  animation-duration: 10s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: 20px;
+  left: -7px;
+  padding: 11px 24px;
+  box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+  border-radius: 22px;
+  background-image: linear-gradient(to left, rgba(75, 19, 79, 0.8), rgba(201, 75, 75, 0.848));
+  text-decoration: none;
+}
+
+@keyframes text {
+  from {
+    transform: translateY(20px);
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+@media (max-width: 400px) {
+ .caroImg{
+  height: 300px;
+ }
+
+
+ .btn{
+  width: max-content;
+ }
+  /* .hello{
+    margin-top: 200px;
+  } */
+
+  
+  /* .h1 a {
+    width: 120px;
+    font-size: 0.8rem;
+    margin: 20px;
+    padding: 9px 18px;
+  }
+  .h2 a {
+    width: 120px;
+    font-size: 0.8rem;
+    margin: 20px;
+    padding: 9px 18px;
+    position: relative;
+    top: 20px;
+    left: 17px;
+  } */
+}
+
+
